@@ -1,4 +1,5 @@
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class OpponentBehaviour : MonoBehaviour
@@ -21,21 +22,28 @@ public class OpponentBehaviour : MonoBehaviour
 
     void Update()
     {
-        FollowBall();
+        if (ball.transform.position.x < 0)
+        {
+            oppRigidbody.linearVelocityY = 0;
+        }
+        else
+        {
+            FollowBall();
+        }
     }
 
     private void FollowBall()
     {
-        if (ball.transform.position.y > transform.position.y + (oppHeight/2)*0.7)
+        if (ball.transform.position.y > transform.position.y + (oppHeight/2)*0.5)
         {
             direction = 1f;
         }
-        else if (ball.transform.position.y < transform.position.y - (oppHeight/2)*0.7)
+        else if (ball.transform.position.y < transform.position.y - (oppHeight/2)*0.5)
         {
             direction = -1f;
         }
 
-        if (ball.transform.position.y - transform.position.y > (oppHeight/2)*0.7)
+        if (ball.transform.position.y - transform.position.y > (oppHeight/2)*0.5)
         {
             moveSpeed = moveSpeedDef;
         }
@@ -44,7 +52,6 @@ public class OpponentBehaviour : MonoBehaviour
             float angle = Mathf.Atan2(ball.transform.position.y - transform.position.y, ball.transform.position.x - transform.position.x) * Mathf.Rad2Deg;
             float slowFactor = (180 - Mathf.Abs(angle)) * 0.1f;
             moveSpeed = moveSpeedDef * slowFactor;
-            Debug.Log(angle);
         }
         oppRigidbody.linearVelocityY = direction * moveSpeed;
     }
