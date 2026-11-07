@@ -1,0 +1,856 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.2f1 (eb73d3b415a1) revision 15430611'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 65462 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Izzy" at "2026-11-04T11:27:20.5075442Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-11-04T11:27:20Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW0
+-projectPath
+C:/Users/Public/Public Git/Pong-Game
+-logFile
+Logs/AssetImportWorkerHW0.log
+-srvPort
+58427
+-parentPid
+34528
+-analyticsCloudUserId
+anonymous
+-analyticsLocalProjectId
+e55694accd6f27841b2b3dbc58d4aad1
+-licensingIpc
+LicenseClient-Izzy
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: C:/Users/Public/Public Git/Pong-Game
+C:/Users/Public/Public Git/Pong-Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [37348]  Target information:
+
+Player connection [37348]  * "[IP] 192.168.159.57 [Port] 0 [Flags] 2 [Guid] 3448807129 [EditorId] 3448807129 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MP6OB76) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [37348]  * "[IP] 172.28.112.1 [Port] 0 [Flags] 2 [Guid] 3448807129 [EditorId] 3448807129 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MP6OB76) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [37348] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [37348] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 9.27 ms, found 5 plugins.
+Initialize engine version: 6000.5.2f1 (eb73d3b415a1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Public/Public Git/Pong-Game/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        AMD Radeon RX 9070 XT (ID=0x7550)
+    Vendor:          ATI
+    VRAM:            16253 MB
+    App VRAM Budget: 15447 MB
+    Driver:          32.0.31019.2002
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56856
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004643 seconds.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Izzy"
+[Licensing::IpcConnector] LicenseClient-Izzy channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Izzy-6000.5.2" at "2026-11-04T11:27:21.457991Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 37232, path: "C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              5a6def9cee524a6da18b94cc91d6e5d5
+  Correlation Id:          1cd268842206a096dc75801d12bdb6aa
+  External correlation Id: 7013805596677388229
+  Machine Id:              2NB0IK8rZfVeKo26L8x8+T3BhyA=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Izzy-6000.5.2" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Izzy-6000.5.2-notifications" at "2026-11-04T11:27:21.463742Z"
+[Licensing::Module] Licensing Background thread has ended after 0.96s
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:False
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.167 seconds
+Domain Reload Profiling: 3099ms
+	BeginReloadAssembly (158ms)
+	RebuildCommonClasses (6ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (93ms)
+	LoadAllAssembliesAndSetupDomain (653ms)
+		LoadAssemblies (148ms)
+		AnalyzeDomain (295ms)
+			TypeCache.Refresh (293ms)
+				TypeCache.ScanAssembly (270ms)
+	FinalizeReload (2171ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			BeforeProcessingInitializeOnLoad (758ms)
+			ProcessInitializeOnLoadAttributes (515ms)
+			ProcessInitializeOnLoadMethodAttributes (363ms)
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 16767722217914-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 4.59 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 4.15 ms, found 5 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:False
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.895 seconds
+Domain Reload Profiling: 2145ms
+	BeginReloadAssembly (223ms)
+		DisableScriptedObjects (6ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (9ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (104ms)
+	LoadAllAssembliesAndSetupDomain (895ms)
+		LoadAssemblies (590ms)
+		AnalyzeDomain (272ms)
+			TypeCache.Refresh (192ms)
+				TypeCache.ScanAssembly (176ms)
+			BuildScriptInfoCaches (71ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (896ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (337ms)
+			ProcessInitializeOnLoadMethodAttributes (240ms)
+			AfterProcessingInitializeOnLoad (14ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 4.01 ms, found 5 plugins.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+Curl error 3: URL rejected: Malformed input to a URL function
+Unloading 7183 unused Assets / (6.7 MB). Loaded Objects now: 8045.
+Memory consumption went from 341.2 MB to 334.5 MB.
+Total: 12.153300 ms (FindLiveObjects: 0.802600 ms CreateObjectMapping: 2.476000 ms MarkObjects: 5.545400 ms  DeleteObjects: 3.327500 ms)
+
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 6.65 ms, found 5 plugins.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (3.0 MB). Loaded Objects now: 8045.
+Memory consumption went from 333.1 MB to 330.1 MB.
+Total: 7.497300 ms (FindLiveObjects: 0.479500 ms CreateObjectMapping: 1.034800 ms MarkObjects: 5.262800 ms  DeleteObjects: 0.719400 ms)
+
+Prepare: number of updated asset objects reloaded= 2
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 3.94 ms, found 5 plugins.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (3.0 MB). Loaded Objects now: 8045.
+Memory consumption went from 333.2 MB to 330.2 MB.
+Total: 8.356800 ms (FindLiveObjects: 0.542500 ms CreateObjectMapping: 1.193500 ms MarkObjects: 5.823300 ms  DeleteObjects: 0.796600 ms)
+
+Prepare: number of updated asset objects reloaded= 1
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 3.78 ms, found 5 plugins.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (3.0 MB). Loaded Objects now: 8045.
+Memory consumption went from 333.4 MB to 330.5 MB.
+Total: 8.122600 ms (FindLiveObjects: 0.433200 ms CreateObjectMapping: 0.985800 ms MarkObjects: 5.807900 ms  DeleteObjects: 0.895000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:41.384885Z
+  Time since last request: 551146.78302910004277 seconds.
+  importAddress: GUID: e73a58f6e2794ae7b1b7e50b7fb811b0 - Path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: e73a58f6e2794ae7b1b7e50b7fb811b0 - Path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: e73a58f6e2794ae7b1b7e50b7fb811b0' -> (Import Result ID: 'ce63e1ce06f066ad13d2a0360babde81') in 0.083 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7dc91ec5f06a4cafb5a1f75dab46ef50 DependenciesID=564c40054f7e6cff43b0fa89b6bbb22c StaticDependenciesID=d1e60e6a96b640f9b46f349f1e2bf21f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:41.4880985Z
+  Time since last request: 0.0069672 seconds.
+  importAddress: GUID: 124c112a6e8f1a54e8b0870e881b56d8 - Path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 124c112a6e8f1a54e8b0870e881b56d8 - Path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 124c112a6e8f1a54e8b0870e881b56d8' -> (Import Result ID: '41edde03a83d62a974260ac6ebc697c8') in 0.051 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6dc34801c97c8d51f980dbc9fe421d3f DependenciesID=353e884a850da19cfb01f388284ace34 StaticDependenciesID=7c41728fb3e017ca15ffa833c3ca7995 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:41.5491024Z
+  Time since last request: 0.000033 seconds.
+  importAddress: GUID: bc1ede39bf3643ee8e493720e4259791 - Path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: bc1ede39bf3643ee8e493720e4259791 - Path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: bc1ede39bf3643ee8e493720e4259791' -> (Import Result ID: 'cf56107ffa4d9d6f9d70387f7362e6ba') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f59ece193e3dcc0483cbd037162709f1 DependenciesID=f2eacaf8b16eff1f044012e7a68ea379 StaticDependenciesID=86f059e1763f5a24b4c43613b22fc5d6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:41.564182Z
+  Time since last request: 0.0003817 seconds.
+  importAddress: GUID: 8c9cfa26abfee488c85f1582747f6a02 - Path: Assets/Scenes/Game.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8c9cfa26abfee488c85f1582747f6a02 - Path: Assets/Scenes/Game.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8c9cfa26abfee488c85f1582747f6a02' -> (Import Result ID: '83f7f75b24afc115cea08fa318c8d0cc') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=24c20a11aa023b7fd31b73ba96cd17a2 DependenciesID=431570428592fffda60a4f1f50329475 StaticDependenciesID=9578aa5d1efa6abc32e299bdf5c8e161 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:41.5785885Z
+  Time since last request: 0.0003574 seconds.
+  importAddress: GUID: 2bcd2660ca9b64942af0de543d8d7100 - Path: Assets/InputSystem_Actions.inputactions - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 2bcd2660ca9b64942af0de543d8d7100 - Path: Assets/InputSystem_Actions.inputactions - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 2bcd2660ca9b64942af0de543d8d7100' -> (Import Result ID: 'b01efa5f85da2962533a3ea19667b3b2') in 0.147 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=739c7730b50a9b2ec3284d3b4fdf6cd2 DependenciesID=1bb831a9685e0a7f75e25d19a04ee870 StaticDependenciesID=f116c1b96b5d832b25fe706c7deaacdb 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:41.7350469Z
+  Time since last request: 0.0002921 seconds.
+  importAddress: GUID: 85187c2149c549c5b33f0cdb02836b17 - Path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 85187c2149c549c5b33f0cdb02836b17 - Path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 85187c2149c549c5b33f0cdb02836b17' -> (Import Result ID: '47a6f0cb857a3bc7adf1a0c33da19d3e') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1becc7576e990c96dc43766d44ca5b91 DependenciesID=7b3a1d159a7d15e1c184631a32090cc9 StaticDependenciesID=6df0009e896bd231a8832a84f5d886bf 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:41.7515068Z
+  Time since last request: 0.0004092 seconds.
+  importAddress: GUID: fade42e8bc714b018fac513c043d323b - Path: Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: fade42e8bc714b018fac513c043d323b - Path: Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: fade42e8bc714b018fac513c043d323b' -> (Import Result ID: 'b20b12da5f38d5bdde203ee9c41dd0dd') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cd78a9f1bdd8fc5dffc01fc2841956f2 DependenciesID=a9626e655582f74f5e7651989b977b0c StaticDependenciesID=d97dbee2666aced13392042fdb6a46e0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:41.7652932Z
+  Time since last request: 0.0003767 seconds.
+  importAddress: GUID: e3265ab4bf004d28a9537516768c1c75 - Path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: e3265ab4bf004d28a9537516768c1c75 - Path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: e3265ab4bf004d28a9537516768c1c75' -> (Import Result ID: 'f3739cd7e03340d4aa9296d9010e4725') in 0.022 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b14152556daa515eabcf41db59f3c416 DependenciesID=8cba23d2fcca910763fd12710fb83e96 StaticDependenciesID=86b16a62049967da1596cc166b0a84a0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:41.7977246Z
+  Time since last request: 0.0002698 seconds.
+  importAddress: GUID: 6f973b9b62122a4429a1e08b94cebbad - Path: Assets/Scenes/MainMenu.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 6f973b9b62122a4429a1e08b94cebbad - Path: Assets/Scenes/MainMenu.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 6f973b9b62122a4429a1e08b94cebbad' -> (Import Result ID: '6b6046e358f43003bb0ca83e03a96d46') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7297606470b583610ee1341fe497725f DependenciesID=b55b7b8b748e9c7e6738085d4d63eb33 StaticDependenciesID=85926471ab15751e6b0913fbe6bbf578 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:41.8121557Z
+  Time since last request: 0.000374 seconds.
+  importAddress: GUID: 3f8fae67eb4c21742bf5bf31af6dcfaa - Path: Assets/Scripts/MainMenu.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 3f8fae67eb4c21742bf5bf31af6dcfaa - Path: Assets/Scripts/MainMenu.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 3f8fae67eb4c21742bf5bf31af6dcfaa' -> (Import Result ID: '7388c1b3dd3cdc20920b9cc8324a25b2') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ed6888fccba8042b4c58a2f33706812e DependenciesID=2c977e515f2f2ecc782c8b879d163692 StaticDependenciesID=747eb87acb07aa455e482b572aaa6639 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:41.8325897Z
+  Time since last request: 0.0004934 seconds.
+  importAddress: GUID: fec4ecfc9dd9ecb4fadf14a4555e15bb - Path: Assets/Scripts/OpponentBehaviour.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: fec4ecfc9dd9ecb4fadf14a4555e15bb - Path: Assets/Scripts/OpponentBehaviour.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: fec4ecfc9dd9ecb4fadf14a4555e15bb' -> (Import Result ID: '4c4ea441ef5911f53823e427cc76fb1d') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dafb038456d0faac6396a3f81f3d4960 DependenciesID=b0f54c3b60ee115b9949b8437584118a StaticDependenciesID=f0a6f3971091d5f30779cd1795274eac 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:41.8490275Z
+  Time since last request: 0.0004966 seconds.
+  importAddress: GUID: a3d800b099a06e0478fb790c5e79057a - Path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a3d800b099a06e0478fb790c5e79057a - Path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: a3d800b099a06e0478fb790c5e79057a' -> (Import Result ID: '073d73b5d98f2f717595f1aa8b3082c1') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=648482a10e7b4073d04ef7245d651187 DependenciesID=d3c51be02f6afb18cb3eb6bd669d1b2d StaticDependenciesID=de20137c72143058da853b2d0fcdfda0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:41.8775954Z
+  Time since last request: 0.0001498 seconds.
+  importAddress: GUID: 48bb5f55d8670e349b6e614913f9d910 - Path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 48bb5f55d8670e349b6e614913f9d910 - Path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 48bb5f55d8670e349b6e614913f9d910' -> (Import Result ID: '62150ae91d32108916521a710b514a31') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9438d9c3d5cb8582a92f990dc8cff8f9 DependenciesID=d161c2ccc3729677c0432fdd3c16fb25 StaticDependenciesID=b2dc6b608df7d14d7f2cd49206751cca 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:41.893781Z
+  Time since last request: 0.000437 seconds.
+  importAddress: GUID: a02a7d8c237544f1962732b55a9aebf1 - Path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a02a7d8c237544f1962732b55a9aebf1 - Path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: a02a7d8c237544f1962732b55a9aebf1' -> (Import Result ID: '1674882679f055ef258acd08a522f4d6') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=587fabfc2305c5329e15533fe881fec8 DependenciesID=5dded13af38e8fad75fc65fe832bf289 StaticDependenciesID=0cbb93db600e25254067abacd7a5d172 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:41.9079469Z
+  Time since last request: 0.0003711 seconds.
+  importAddress: GUID: 807c57474055a9143bb6a0a71b685732 - Path: Assets/Scripts/WinLose.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 807c57474055a9143bb6a0a71b685732 - Path: Assets/Scripts/WinLose.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 807c57474055a9143bb6a0a71b685732' -> (Import Result ID: '819b52f359fec9991e841accc4a8b694') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dbe632bebf8f156ff1ede36cd0f41737 DependenciesID=5fb25c4fb5ef9a6fe9ddd3e6a9173148 StaticDependenciesID=5ace5838eb9b689e03c6544fde8a40ab 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:41.9227599Z
+  Time since last request: 0.0004656 seconds.
+  importAddress: GUID: 96de908384869cd409c75efa351d5edf - Path: Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 96de908384869cd409c75efa351d5edf - Path: Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 96de908384869cd409c75efa351d5edf' -> (Import Result ID: '34676162b523f50873ac7577de19b9f6') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=85c238e272fd216ffcbcd8217fb106c0 DependenciesID=9fd38f6e468f3e1831d873f41f885280 StaticDependenciesID=41e686b587f534ae520c83e9d0b370bd 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:41.9367523Z
+  Time since last request: 0.0006058 seconds.
+  importAddress: GUID: f63d574838ccfb44f84acc05fed0af48 - Path: Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: f63d574838ccfb44f84acc05fed0af48 - Path: Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: f63d574838ccfb44f84acc05fed0af48' -> (Import Result ID: 'e6cf94a6d16cdcd6b8f029bfc82bd486') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c28296776fd1aa1cb765a58393a8c2f1 DependenciesID=182ea0d094de9505b00b18e892ddb2ee StaticDependenciesID=003b4b38205633e901dcdff0b6b68b14 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:41.9550131Z
+  Time since last request: 0.0003766 seconds.
+  importAddress: GUID: 0178fcb869bafef4690d177d31d17db8 - Path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 0178fcb869bafef4690d177d31d17db8 - Path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 0178fcb869bafef4690d177d31d17db8' -> (Import Result ID: '50f9d8ef01e1365246569a2e55e05842') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ea5e7b3d9c712da00462613cd6e58b91 DependenciesID=703d8ef50338176d1c5be3b1a0743533 StaticDependenciesID=72c0dfb8980073a50ae9e8b11f7c3c93 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:41.9712661Z
+  Time since last request: 0.0003774 seconds.
+  importAddress: GUID: ca2ed216f98028c4dae6c5224a952b3c - Path: Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ca2ed216f98028c4dae6c5224a952b3c - Path: Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ca2ed216f98028c4dae6c5224a952b3c' -> (Import Result ID: '24b73b3d1e6f6072f8a58ed345d294f5') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f4723e747d8f9a6c5500732426c39217 DependenciesID=4da837f27804c3f31d40b9a46e2bd456 StaticDependenciesID=8954634b6793ed3c28e5156402c11751 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:41.9879454Z
+  Time since last request: 0.0003831 seconds.
+  importAddress: GUID: e407e2ceed8bac04a845003869affbc9 - Path: Assets/Scripts/BallBehaviour.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: e407e2ceed8bac04a845003869affbc9 - Path: Assets/Scripts/BallBehaviour.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: e407e2ceed8bac04a845003869affbc9' -> (Import Result ID: '6c66351ef4129c2a03d8a7786bbd7bba') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fa4cd5cb217701bf25402dba588a67a0 DependenciesID=d857e70a984f1ced32956b1ebbba0615 StaticDependenciesID=0539f0d6021d6308c450cd591abaa837 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:42.002482Z
+  Time since last request: 0.0004002 seconds.
+  importAddress: GUID: cf81c85f95fe47e1a27f6ae460cf182c - Path: Assets/TextMesh Pro/Shaders/TMP_Sprite.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: cf81c85f95fe47e1a27f6ae460cf182c - Path: Assets/TextMesh Pro/Shaders/TMP_Sprite.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: cf81c85f95fe47e1a27f6ae460cf182c' -> (Import Result ID: 'ad30a1ec35158399128710fa2ae94477') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2f9f313bd2f5373f1e35478aceebf3ba DependenciesID=34bd33113a57ae52f9e0d7734681dd98 StaticDependenciesID=af0f62a98376ddde81959463bcc92643 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:42.0159522Z
+  Time since last request: 0.0003643 seconds.
+  importAddress: GUID: 1e3b057af24249748ff873be7fafee47 - Path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 1e3b057af24249748ff873be7fafee47 - Path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 1e3b057af24249748ff873be7fafee47' -> (Import Result ID: 'df42b61a6e0a14d891524903f0f7ad9d') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9bd46c44f9db7abf8683249c155f7d80 DependenciesID=18f5b73db8aec17e3e7b7d4176c0c66f StaticDependenciesID=ab2e4a64c041d0a0d220b2c6b19c187b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:42.0294839Z
+  Time since last request: 0.0003474 seconds.
+  importAddress: GUID: 407bc68d299748449bbf7f48ee690f8d - Path: Assets/TextMesh Pro/Shaders/TMPro.cginc - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 407bc68d299748449bbf7f48ee690f8d - Path: Assets/TextMesh Pro/Shaders/TMPro.cginc - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 407bc68d299748449bbf7f48ee690f8d' -> (Import Result ID: '3816e3f5a920e73ab5d7c67502e74999') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4062663ca8108b61ba32c4e6518bac2f DependenciesID=45f12bfd5f4dad6a7964fa75f592f09e StaticDependenciesID=ff8bd0465632424c0a9e22259b882eb5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:42.0433607Z
+  Time since last request: 0.0004131 seconds.
+  importAddress: GUID: dd89cf5b9246416f84610a006f916af7 - Path: Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: dd89cf5b9246416f84610a006f916af7 - Path: Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: dd89cf5b9246416f84610a006f916af7' -> (Import Result ID: '5af1396bddb087596a10e5d0071a5822') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8d8e0958d4fa7db272bcc6ca038e491f DependenciesID=24d2391390ed7c3ce1f8e61a601c8a65 StaticDependenciesID=3dc55b949d1bb0b6660465ce5e440f96 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:42.0586029Z
+  Time since last request: 0.0004201 seconds.
+  importAddress: GUID: 68e6db2ebdc24f95958faec2be5558d6 - Path: Assets/TextMesh Pro/Shaders/TMP_SDF.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 68e6db2ebdc24f95958faec2be5558d6 - Path: Assets/TextMesh Pro/Shaders/TMP_SDF.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 68e6db2ebdc24f95958faec2be5558d6' -> (Import Result ID: '3da99b02232002cf0c72907be8bcc647') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=344a32f334478ef247d72b12af83246b DependenciesID=943d2e17884428a202648d1449ec03f5 StaticDependenciesID=db83b49fe246259b1987e88492b715b0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:42.0740358Z
+  Time since last request: 0.0003769 seconds.
+  importAddress: GUID: 350d0165d59e0304e974b985b0221dca - Path: Assets/Bounds.physicsMaterial2D - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 350d0165d59e0304e974b985b0221dca - Path: Assets/Bounds.physicsMaterial2D - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 350d0165d59e0304e974b985b0221dca' -> (Import Result ID: '477cc38081546bde4cc124afc623876e') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e7ac61cff2b4e06c37cc145fa4f95cae DependenciesID=b306285d8bebc155fa3bcc2e77a07ec8 StaticDependenciesID=e6033a2ead5e4ab9150ac6b3774bd4b9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:42.0896562Z
+  Time since last request: 0.0004102 seconds.
+  importAddress: GUID: 3997e2241185407d80309a82f9148466 - Path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 3997e2241185407d80309a82f9148466 - Path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 3997e2241185407d80309a82f9148466' -> (Import Result ID: 'fbac6737d8210be50d20efad2bc7509d') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=444bdc41fd60aae58f59340ea57cbd41 DependenciesID=866b2930a5cde779b649809a72714934 StaticDependenciesID=4a0eceb1f6ba14aaaa0524327e1041a5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:42.1057269Z
+  Time since last request: 0.0003859 seconds.
+  importAddress: GUID: 424799608f7334c24bf367e4bbfa7f9a - Path: Assets/Settings/Renderer2D.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 424799608f7334c24bf367e4bbfa7f9a - Path: Assets/Settings/Renderer2D.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 424799608f7334c24bf367e4bbfa7f9a' -> (Import Result ID: 'd6e45162768511c5e78607ee1736b081') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=99d35950be81399a51fe0286c2739059 DependenciesID=ee89cda08443af7949e5e67c632abe51 StaticDependenciesID=f4e132ce6a8bae339328589839c3159f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:42.135534Z
+  Time since last request: 0.0003734 seconds.
+  importAddress: GUID: c334973cef89a9840b0b0c507e0377ab - Path: Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: c334973cef89a9840b0b0c507e0377ab - Path: Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: c334973cef89a9840b0b0c507e0377ab' -> (Import Result ID: 'f573e9d6a04ddf8cd6b3a8b9b3c18115') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=08e51fb37de6847ff40cc04eaec729fb DependenciesID=ac50505dab9a990f9a535f1ca17e6218 StaticDependenciesID=8ca8fe046091e65b4df4876046449a18 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:42.1504097Z
+  Time since last request: 0.0003543 seconds.
+  importAddress: GUID: 93b439a37f63240aca3dd4e01d978a9f - Path: Assets/UniversalRenderPipelineGlobalSettings.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 93b439a37f63240aca3dd4e01d978a9f - Path: Assets/UniversalRenderPipelineGlobalSettings.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 93b439a37f63240aca3dd4e01d978a9f' -> (Import Result ID: 'daad270845ffeb05e8387000299fe0cd') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=95d68a0bd7602157f9a9c862df574229 DependenciesID=ebf5ba9ef687f75c14a822e080951bc4 StaticDependenciesID=564c5370b51ae3208c0825bc45e70769 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:42.1723162Z
+  Time since last request: 0.000371 seconds.
+  importAddress: GUID: 8f586378b4e144a9851e7b34d9b748ee - Path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8f586378b4e144a9851e7b34d9b748ee - Path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8f586378b4e144a9851e7b34d9b748ee' -> (Import Result ID: '47fc35beed12881c63ad6542074f38ae') in 0.042 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9ebd365afd8a13a4598161ee3b883aca DependenciesID=de511bd8cf5d1b3decfb4a2b0071fdbf StaticDependenciesID=d111c0777a1159dc476029e742fd21af 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:42.223183Z
+  Time since last request: 0.000286 seconds.
+  importAddress: GUID: 6e59c59b81ab47f9b6ec5781fa725d2c - Path: Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 6e59c59b81ab47f9b6ec5781fa725d2c - Path: Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 6e59c59b81ab47f9b6ec5781fa725d2c' -> (Import Result ID: '74e5c7239a48f467c53890ff462038a8') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=51c27c1c97d401f4165e68f2a07f3c27 DependenciesID=6c929b690480620d1d1986e0d6ff68e3 StaticDependenciesID=a5446db9a97e0204bf2b94fafc40d381 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:42.2363744Z
+  Time since last request: 0.0003616 seconds.
+  importAddress: GUID: 681886c5eb7344803b6206f758bf0b1c - Path: Assets/Settings/UniversalRP.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 681886c5eb7344803b6206f758bf0b1c - Path: Assets/Settings/UniversalRP.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 681886c5eb7344803b6206f758bf0b1c' -> (Import Result ID: 'f67f39640cef33afe5f84a6306e87783') in 0.030 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2b122f0861c66ce852537686645f8076 DependenciesID=330a2fc13334b6e720d63d27a0326d5a StaticDependenciesID=e16dfcaa2881f594ff9e8fca4dbd375a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:42.2759732Z
+  Time since last request: 0.0003481 seconds.
+  importAddress: GUID: c8d12adcee749c344b8117cf7c7eb912 - Path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: c8d12adcee749c344b8117cf7c7eb912 - Path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: c8d12adcee749c344b8117cf7c7eb912' -> (Import Result ID: 'd73445e31fd3540e0695d5fb186eb163') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5179c71c11df5b07faff2398d26230b9 DependenciesID=7659e4cff8297121339ee1ac08af3ee5 StaticDependenciesID=0801d6ea90c003154b8e642603471033 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:42.2908036Z
+  Time since last request: 0.0003436 seconds.
+  importAddress: GUID: 381dcb09d5029d14897e55f98031fca5 - Path: Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 381dcb09d5029d14897e55f98031fca5 - Path: Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 381dcb09d5029d14897e55f98031fca5' -> (Import Result ID: 'eb5b724015fa26d195b42298f45beca4') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=11219fd2d93b99094b124a09dea0db63 DependenciesID=bc9a659cdec2759416a4b38a8d382444 StaticDependenciesID=d09254bd677e12a310b9c696c6ae2964 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:42.3052255Z
+  Time since last request: 0.000434 seconds.
+  importAddress: GUID: 73e3a0fd77eddcc4a820582bfef0cdbd - Path: Assets/Scripts/PlayerController.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 73e3a0fd77eddcc4a820582bfef0cdbd - Path: Assets/Scripts/PlayerController.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 73e3a0fd77eddcc4a820582bfef0cdbd' -> (Import Result ID: '9d4b54c60459643bbb2d95036b14772b') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1b21cd390fc00c353aea5c323542267b DependenciesID=62c71232776ff228fc2a6ef8ddca678a StaticDependenciesID=6201d6e3050aed68a331d80e4e8bb659 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:42.3220924Z
+  Time since last request: 0.0012681 seconds.
+  importAddress: GUID: c41005c129ba4d66911b75229fd70b45 - Path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: c41005c129ba4d66911b75229fd70b45 - Path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: c41005c129ba4d66911b75229fd70b45' -> (Import Result ID: '5d0eab9e852e08e1288c9b5c204cc721') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=512496f82ab36f0c2198914bd26d7db8 DependenciesID=99320a6d86196027dce45ba3de271a85 StaticDependenciesID=476e0e742db98b9882a7820969c52a70 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:42.3442242Z
+  Time since last request: 0.0002756 seconds.
+  importAddress: GUID: f952c082cb03451daed3ee968ac6c63e - Path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: f952c082cb03451daed3ee968ac6c63e - Path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: f952c082cb03451daed3ee968ac6c63e' -> (Import Result ID: '63e375584cdde4d3bb40dc1330a8ec4b') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b3b2d83d255ac16877f9d63d9587a147 DependenciesID=7329284374643e47160adcf3176ba751 StaticDependenciesID=897d6887bac9aa3700ca44564a5f65c5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:42.3591668Z
+  Time since last request: 0.0003423 seconds.
+  importAddress: GUID: 79f309ede999f87459c0f5224509c1b4 - Path: Assets/Scenes/EndScreen.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 79f309ede999f87459c0f5224509c1b4 - Path: Assets/Scenes/EndScreen.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 79f309ede999f87459c0f5224509c1b4' -> (Import Result ID: '5fc5ba506b74a4ed4715a1f06f2a848b') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=28bd27b8747e48894f74692728dfc40d DependenciesID=2db847ab68bde8a89279decbb52ca203 StaticDependenciesID=875d6bf3ef04af0d2320f23c2c28f60d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:42.3746077Z
+  Time since last request: 0.0003729 seconds.
+  importAddress: GUID: f7ada0af4f174f0694ca6a487b8f543d - Path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: f7ada0af4f174f0694ca6a487b8f543d - Path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: f7ada0af4f174f0694ca6a487b8f543d' -> (Import Result ID: 'fd35ef4308b1a69d50593c1b0ff5b04c') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d18e559d9c53e38d958ebfc1cb7da0e3 DependenciesID=0ac2f04bc55913dd92fd38e24e1bb349 StaticDependenciesID=1121ff36a4d52d97e6b63cf239319fdb 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:42.3898303Z
+  Time since last request: 0.0003435 seconds.
+  importAddress: GUID: d03ed43fc9d8a4f2e9fa70c1c7916eb9 - Path: Assets/Settings/Lit2DSceneTemplate.scenetemplate - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: d03ed43fc9d8a4f2e9fa70c1c7916eb9 - Path: Assets/Settings/Lit2DSceneTemplate.scenetemplate - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: d03ed43fc9d8a4f2e9fa70c1c7916eb9' -> (Import Result ID: '86953d8d78afba29e896e5b92e0dd23c') in 0.032 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9fc64232add97996305a29c63f475f7b DependenciesID=96c7c13f987a1579ac11730463ad2fb2 StaticDependenciesID=267b79a08eceafc2b72f6797d00b8693 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:42.4309023Z
+  Time since last request: 0.0003175 seconds.
+  importAddress: GUID: 79459efec17a4d00a321bdcc27bbc385 - Path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 79459efec17a4d00a321bdcc27bbc385 - Path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 79459efec17a4d00a321bdcc27bbc385' -> (Import Result ID: '73c35ef48fdc0a13aeb864ea1418e5b9') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9160c0aaedea71c78678526fc45c861e DependenciesID=432d250abf48f57fd08f6a86bd696a50 StaticDependenciesID=055b5577a34ced43c1aa1fd1c9775d7d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:42.4542836Z
+  Time since last request: 0.0003153 seconds.
+  importAddress: GUID: 2e498d1c8094910479dc3e1b768306a4 - Path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 2e498d1c8094910479dc3e1b768306a4 - Path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 2e498d1c8094910479dc3e1b768306a4' -> (Import Result ID: 'a69bde81be72d76638ea7ede66a3bfa4') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f77d9fed5384a3ef40739961bb0b1c81 DependenciesID=9db423ed61cad3bcc6da417d1bcd9c63 StaticDependenciesID=0cf198d74d376f6d82e229f7018c05c5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:42.480409Z
+  Time since last request: 0.0001769 seconds.
+  importAddress: GUID: 9e076a6a0baca1542bca930ed49fb6ed - Path: Assets/Scripts/EndScreen.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 9e076a6a0baca1542bca930ed49fb6ed - Path: Assets/Scripts/EndScreen.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 9e076a6a0baca1542bca930ed49fb6ed' -> (Import Result ID: '44d699e7dc05624af601b7e0ca63169d') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2ba2afcdeecedc9b38d259cfe5fd4c2b DependenciesID=58fbc5118561ad46d0e978d109b53ea5 StaticDependenciesID=e9db3ba522042f66f0a3b16873e4119a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:42.4940761Z
+  Time since last request: 0.0004391 seconds.
+  importAddress: GUID: d930090c0cd643c7b55f19a38538c162 - Path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: d930090c0cd643c7b55f19a38538c162 - Path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: d930090c0cd643c7b55f19a38538c162' -> (Import Result ID: 'e9cc755267bc08075245e47035cb5e31') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a3e9137ad62510f212f864c93730904a DependenciesID=cd91a8b355cc7156c187d169afa59873 StaticDependenciesID=dae9f076e2a6b6bc622dd87fe2a54ee1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:42.507562Z
+  Time since last request: 0.0003143 seconds.
+  importAddress: GUID: d82c1b31c7e74239bff1220585707d2b - Path: Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: d82c1b31c7e74239bff1220585707d2b - Path: Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: d82c1b31c7e74239bff1220585707d2b' -> (Import Result ID: '0fec781b0f793a75da65d29fc69f462b') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0eb33f86f94411a6fe298831489abeaa DependenciesID=6bc65e96375b446743caf6233bb1864b StaticDependenciesID=dda9deda6e4e241f76e7fb081f0ee35f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:42.520476Z
+  Time since last request: 0.0003375 seconds.
+  importAddress: GUID: 68f38224b7cef234caa83ca3cbae4ba8 - Path: Assets/Scripts/LightController.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 68f38224b7cef234caa83ca3cbae4ba8 - Path: Assets/Scripts/LightController.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 68f38224b7cef234caa83ca3cbae4ba8' -> (Import Result ID: 'b9928cc30fcab73eb425745d03f30885') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b68ef205cc7657a76381f1973be8c878 DependenciesID=1b610970b86e75e7e23af9189e908249 StaticDependenciesID=b94a782ada1fbb8cdee2af82b6b1d5b5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:42.5339242Z
+  Time since last request: 0.0004572 seconds.
+  importAddress: GUID: fe393ace9b354375a9cb14cdbbc28be4 - Path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: fe393ace9b354375a9cb14cdbbc28be4 - Path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: fe393ace9b354375a9cb14cdbbc28be4' -> (Import Result ID: '0cfab5836155b6a15a1e13eb2d065faf') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d05e7b9750e3ba9669010c1c60ef46a7 DependenciesID=6122c65e714475021f8d0f5a0d7e0683 StaticDependenciesID=1d5424932efb2a18e2aa9eda8ae5e448 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:42.5475589Z
+  Time since last request: 0.0003496 seconds.
+  importAddress: GUID: dffef66376be4fa480fb02b19edbe903 - Path: Assets/TextMesh Pro/Sprites/EmojiOne.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: dffef66376be4fa480fb02b19edbe903 - Path: Assets/TextMesh Pro/Sprites/EmojiOne.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: dffef66376be4fa480fb02b19edbe903' -> (Import Result ID: '5c390415f3f7ce8651860a3bd8d22ecc') in 0.025 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2945c172d57a5e4834d14564271df34c DependenciesID=99bfa7d5ccacdc0d9a7fe6fbf3612cdd StaticDependenciesID=e6af67e160a4e4e9476f20dff9104393 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:42.5817989Z
+  Time since last request: 0.000335 seconds.
+  importAddress: GUID: 2cda990e2423bbf4892e6590ba056729 - Path: Assets/Settings/Scenes/URP2DSceneTemplate.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 2cda990e2423bbf4892e6590ba056729 - Path: Assets/Settings/Scenes/URP2DSceneTemplate.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 2cda990e2423bbf4892e6590ba056729' -> (Import Result ID: '95f58170f1b4e78ecd3d5bb520701c5f') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dd2f0d116a30832cc83634bb6ef2cfe9 DependenciesID=f8f2f3439bde446b26f752d3c23c27e2 StaticDependenciesID=1ca0956f10a30c9034387744e163256d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:42.5946937Z
+  Time since last request: 0.0003555 seconds.
+  importAddress: GUID: 3f9215ea0144899419cfbc0957140d3f - Path: Assets/DefaultVolumeProfile.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 3f9215ea0144899419cfbc0957140d3f - Path: Assets/DefaultVolumeProfile.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 3f9215ea0144899419cfbc0957140d3f' -> (Import Result ID: 'd8d0e313b68c539abde49380e0dc79ac') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6ebcdac8510aa5c6dd2dcabb16f88d5c DependenciesID=fc57b96b39abeac7685a031c9286b970 StaticDependenciesID=709d3fa41e6b06b06506cd5fc885ff13 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:42.6097219Z
+  Time since last request: 0.0004437 seconds.
+  importAddress: GUID: 14eb328de4b8eb245bb7cea29e4ac00b - Path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 14eb328de4b8eb245bb7cea29e4ac00b - Path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 14eb328de4b8eb245bb7cea29e4ac00b' -> (Import Result ID: '3016405332088176dfc31d69acdfd163') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2a125bb73b89efc3b88ab3f52bcbc2fd DependenciesID=92e3b037a71f0bbf7f74f7f4c9cabd23 StaticDependenciesID=14cc34b896595dd508bdabbf5c4444d7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:42.6234448Z
+  Time since last request: 0.0003525 seconds.
+  importAddress: GUID: 3f5b5dff67a942289a9defa416b206f3 - Path: Assets/TextMesh Pro/Resources/TMP Settings.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 3f5b5dff67a942289a9defa416b206f3 - Path: Assets/TextMesh Pro/Resources/TMP Settings.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 3f5b5dff67a942289a9defa416b206f3' -> (Import Result ID: 'b1736f0d84801a4f1f711dc3be56c8f5') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aaf984c1d6b6d8d083e62ab6f73e91ff DependenciesID=f465b020f9ab669e93c8efd5b3f2f413 StaticDependenciesID=c63672f52263e9ea2ea755d7b56b92d3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:42.6529684Z
+  Time since last request: 0.0000174 seconds.
+  importAddress: GUID: 128e987d567d4e2c824d754223b3f3b0 - Path: Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 128e987d567d4e2c824d754223b3f3b0 - Path: Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 128e987d567d4e2c824d754223b3f3b0' -> (Import Result ID: '9cd13ef791b733dea9abe5c8b6b51cc2') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9ecf711101dc743f2ac7d08a3205b087 DependenciesID=8007b4af836e5de3305b794e4d680e62 StaticDependenciesID=fac6872cb7f3e18474abb0b95f1321c2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:42.6677898Z
+  Time since last request: 0.0003333 seconds.
+  importAddress: GUID: 8f05276190cf498a8153f6cbe761d4e6 - Path: Assets/TextMesh Pro/Sprites/EmojiOne.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8f05276190cf498a8153f6cbe761d4e6 - Path: Assets/TextMesh Pro/Sprites/EmojiOne.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8f05276190cf498a8153f6cbe761d4e6' -> (Import Result ID: 'e998a701b2bd2d958e9303e171e2873d') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=16a672185d98e47154dbb6b377621a5b DependenciesID=ccf326621db6af05e3e0484b8fe7dfaa StaticDependenciesID=d33acf7e6a1ed798153e92398c8e0145 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 3.90 ms, found 5 plugins.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (3.0 MB). Loaded Objects now: 8048.
+Memory consumption went from 342.2 MB to 339.3 MB.
+Total: 11.010500 ms (FindLiveObjects: 0.525200 ms CreateObjectMapping: 1.117300 ms MarkObjects: 8.489800 ms  DeleteObjects: 0.877100 ms)
+
+Prepare: number of updated asset objects reloaded= 6
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-04T11:29:54.5036799Z
+  Time since last request: 11.8230648 seconds.
+  importAddress: GUID: 681886c5eb7344803b6206f758bf0b1c - Path: Assets/Settings/UniversalRP.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 681886c5eb7344803b6206f758bf0b1c - Path: Assets/Settings/UniversalRP.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 681886c5eb7344803b6206f758bf0b1c' -> (Import Result ID: 'c273784d73d0ce49e6802b0cb957c9d7') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fa403b074dd4e31c3002591ccd202613 DependenciesID=d9e4e7c53637ab834126d9d64837a8d1 StaticDependenciesID=efc419ec4cdcae7b407aeaaf2795a1c1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 3.81 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.746 seconds
+Domain Reload Profiling: 1618ms
+	BeginReloadAssembly (259ms)
+		DisableScriptedObjects (12ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (10ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (92ms)
+	LoadAllAssembliesAndSetupDomain (488ms)
+		LoadAssemblies (432ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (8ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (747ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (303ms)
+			ProcessInitializeOnLoadMethodAttributes (123ms)
+			AfterProcessingInitializeOnLoad (12ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 3.80 ms, found 5 plugins.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7181 unused Assets / (6.5 MB). Loaded Objects now: 8052.
+Memory consumption went from 334.9 MB to 328.4 MB.
+Total: 13.019700 ms (FindLiveObjects: 0.829000 ms CreateObjectMapping: 2.645900 ms MarkObjects: 6.100400 ms  DeleteObjects: 3.443400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 3.13 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.768 seconds
+Domain Reload Profiling: 1588ms
+	BeginReloadAssembly (240ms)
+		DisableScriptedObjects (13ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (79ms)
+	LoadAllAssembliesAndSetupDomain (477ms)
+		LoadAssemblies (410ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (8ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (769ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (302ms)
+			ProcessInitializeOnLoadMethodAttributes (131ms)
+			AfterProcessingInitializeOnLoad (10ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 3.32 ms, found 5 plugins.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7181 unused Assets / (6.2 MB). Loaded Objects now: 8055.
+Memory consumption went from 335.0 MB to 328.9 MB.
+Total: 13.132500 ms (FindLiveObjects: 0.943800 ms CreateObjectMapping: 3.074400 ms MarkObjects: 5.404700 ms  DeleteObjects: 3.708800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Editor is closing down
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

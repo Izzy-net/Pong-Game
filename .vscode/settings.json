@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Pong-Game.sln"
+    "dotnet.defaultSolution": "Pong-Game.slnx"
 }
